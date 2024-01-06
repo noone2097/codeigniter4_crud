@@ -1,0 +1,8 @@
+CRITICAL - 2024-01-03 04:30:12 --> Undefined variable $imageName
+in APPPATH\Controllers\StudentController.php on line 33.
+ 1 APPPATH\Controllers\StudentController.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $imageName', 'APPPATH\\Controllers\\StudentController.php', 33)
+ 2 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\StudentController->store()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
